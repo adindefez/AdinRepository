@@ -8,17 +8,22 @@ myList = []
 
 def mainProgram():
         while True:
+            try:
                 print("Hello there! Let's work with lists!")
                 print("Choose from the following options. Type a number below!")
                 choice = input("""1. add to a list
-        2. Return the value at an index position!
-        3. Exit program""")
-                if choice == "1":
-                    addToList()
-                elif choice == "2":
-                    indexVaules()
-                elif choice == "3":
-                break
+                2. Return the value at an index position!
+                3. Random Search
+                4. Exit program""")
+                        if choice == "1":
+                            addToList()
+                        elif choice == "2":
+                            indexVaules()
+                        elif choice == "3":
+                                randomSearch()
+                        break
+                except:
+                        print("you made an oopsie doopsie"
         #add a way to loop action a way to quit 
 
 def addToList():
