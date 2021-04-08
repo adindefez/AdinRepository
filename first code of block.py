@@ -37,7 +37,7 @@ def mainProgram():
                             linearSearch
                         elif choice == "7":
                             binSearch = input("what number do you want?   ")
-                            recursiveBinarySearch(unique_list, 0, len(unique_list)-1, int(binSearc))
+                            recursiveBinarySearch(unique_list, 0, len(unique_list)-1, int(binSearch))
                         elif choice == "8":
                             binSearch = input("what number do you want?   ")
                             result = iterativeBinarySearch(unique_list, int(binSearch))
