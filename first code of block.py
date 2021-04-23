@@ -23,32 +23,32 @@ def mainProgram():
                 8. itarive binary search
                 9. Print contents of list
                 10. Exit program""")
-                        if choice == "1":
-                            addToList()
-                        elif choice == "2":
-                            addABunch()
-                        elif choice == "3":
-                            indexVaules()
-                        elif choice == "4":
-                            sortList(myList)
-                        elif choice == "5"
-                            randomSearch()
-                        elif choice == "6":
-                            linearSearch
-                        elif choice == "7":
-                            binSearch = input("what number do you want?   ")
-                            recursiveBinarySearch(unique_list, 0, len(unique_list)-1, int(binSearch))
-                        elif choice == "8":
-                            binSearch = input("what number do you want?   ")
-                            result = iterativeBinarySearch(unique_list, int(binSearch))
-                            if result != -1:
-                                print("your number is at index position {}".format(result))
-                            else:
-                                print("your number is not found in that list"
-                        elif choice == "9":
+                if choice == "1":
+                  addToList()
+                elif choice == "2":
+                    addABunch()
+                elif choice == "3":
+                    indexVaules()
+                elif choice == "4":
+                    sortList(myList)
+                elif choice == "5":
+                    randomSearch()
+                elif choice == "6":
+                    linearSearch
+                elif choice == "7":
+                    binSearch = input("what number do you want?   ")
+                    recursiveBinarySearch(unique_list, 0, len(unique_list)-1, int(binSearch))
+                elif choice == "8":
+                    binSearch = input("what number do you want?   ")
+                    result = iterativeBinarySearch(unique_list, int(binSearch))
+                if result != -1:
+                        print("your number is at index position {}".format(result))
+                else:
+                    print("your number is not found in that list"
+                elif choice == "9":
                             printLists()
-                        else:
-                            break
+                else:
+                     break
                 except:
                     print("you made an oopsie doopsie"
         #add a way to loop action a way to quit 
